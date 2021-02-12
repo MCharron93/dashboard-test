@@ -16,29 +16,29 @@
 
 */
 :root {
-  --blue: #5e72e4;
+  --blue: #519ef7;
   --indigo: #5603ad;
-  --purple: #8965e0;
+  --purple: #cea3ff;
   --pink: #f3a4b5;
-  --red: #f5365c;
+  --red: #ff393d;
   --orange: #fb6340;
-  --yellow: #ffd600;
-  --green: #2dce89;
-  --teal: #11cdef;
+  --yellow: #ffff63;
+  --green: #ade84e;
+  --teal: #3cf2ca;
   --cyan: #2bffc6;
   --white: #fff;
   --gray: #8898aa;
   --gray-dark: #32325d;
   --light: #ced4da;
   --lighter: #e9ecef;
-  --primary: #5e72e4;
+  --primary: #fe64a3;
   --secondary: #f7fafc;
-  --success: #2dce89;
-  --info: #11cdef;
+  --success: #35a04b;
+  --info: #7bdff2;
   --warning: #fb6340;
-  --danger: #f5365c;
+  --danger: #ff393d;
   --light: #adb5bd;
-  --dark: #212529;
+  --dark: #282828;
   --default: #172b4d;
   --white: #fff;
   --neutral: #fff;
@@ -3001,7 +3001,8 @@ input[type="button"].btn-block {
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
   border-color: #5e72e4;
   background-color: #5e72e4;
-  box-shadow:; }
+  box-shadow:none; }
+  /* NOTE Double check what this box-shadow is connected to. */
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e"); }
