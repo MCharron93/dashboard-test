@@ -23,7 +23,7 @@ const Test = () => {
                 <Card className="bg-secondary shadow border-0">
                     <CardHeader className="bg-transparent pb-5">
                         <div className="text-muted text-center mt-2 mb-4">
-                            <small>Sign up with</small>
+                            <small>Snail cup width</small>
                         </div>
                         <div className="text-center">
                             <Button
@@ -41,7 +41,7 @@ const Test = () => {
                                         }
                                     />
                                 </span>
-                                <span className="btn-inner--text">Github</span>
+                                <span className="btn-inner--text">Gothib</span>
                             </Button>
                             <Button
                                 className="btn-neutral btn-icon"
@@ -58,13 +58,13 @@ const Test = () => {
                                         }
                                     />
                                 </span>
-                                <span className="btn-inner--text">Google</span>
+                                <span className="btn-inner--text">Foogle</span>
                             </Button>
                         </div>
                     </CardHeader>
                     <CardBody className="px-lg-5 py-lg-5">
                         <div className="text-center text-muted mb-4">
-                            <small>Or sign up with credentials</small>
+                            <small>Here is some test data</small>
                         </div>
                     </CardBody>
                 </Card>
