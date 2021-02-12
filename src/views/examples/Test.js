@@ -18,16 +18,17 @@ import {
 
 const Test = () => {
     return (
+        // NOTE these empty carrots are similar to the template parent div in Vue. They can be edited, but best practices note that these should be top level and never components of another kind. 
         <>
             <Col lg="6" md="8">
-                <Card className="bg-secondary shadow border-0">
+                <Card className="bg-neutral shadow border-0">
                     <CardHeader className="bg-transparent pb-5">
                         <div className="text-muted text-center mt-2 mb-4">
                             <small>Snail cup width</small>
                         </div>
                         <div className="text-center">
                             <Button
-                                className="btn-neutral btn-icon mr-4"
+                                className="btn-secondary btn-icon mr-4"
                                 color="default"
                                 href="#pablo"
                                 onClick={(e) => e.preventDefault()}
@@ -44,7 +45,7 @@ const Test = () => {
                                 <span className="btn-inner--text">Gothib</span>
                             </Button>
                             <Button
-                                className="btn-neutral btn-icon"
+                                className="btn-secondary btn-icon"
                                 color="default"
                                 href="#pablo"
                                 onClick={(e) => e.preventDefault()}
