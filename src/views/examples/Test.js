@@ -39,7 +39,7 @@ const Test = () => {
                                 </Input>
                             </InputGroup>
                         </CardBody>
-                            <Button className="btn-3 mt-2 btn btn-primary">Click me</Button>
+                        <Button className="btn-3 mt-2 btn-info">Click me</Button>
                     </Card>
                     <Card>
                         <CardHeader>
