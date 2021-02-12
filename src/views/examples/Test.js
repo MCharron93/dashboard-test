@@ -22,32 +22,32 @@ const Test = () => {
         // NOTE these empty carrots are similar to the template parent div in Vue. They can be edited, but best practices note that these should be top level and never components of another kind. 
         <>
             <Container>
-            <Col lg="6" md="8">
-                <Card className="bg-neutral shadow border-0 mt-5">
-                    <CardHeader className="bg-transparent pb-5">
-                        <div className="text-muted text-center mt-2 mb-4">
-                            Hello World
+                <Col lg="6" md="8">
+                    <Card className="bg-neutral shadow border-0 mt-5">
+                        <CardHeader className="bg-transparent pb-5">
+                            <div className="text-muted text-center mt-2 mb-4">
+                                Hello World
                         </div>
-                    </CardHeader>
-                    <CardBody>
-                        <h5>
-                            Here is a subheading
+                        </CardHeader>
+                        <CardBody>
+                            <h5>
+                                Here is a subheading
                         </h5>
-                        <InputGroup>
-                            <Input
-                            type="datetime-local">
-                            </Input>
-                        </InputGroup>
-                            <Button className="btn-3 btn-outline-success mt-2">Click me</Button>
-                    </CardBody>
-                </Card>
-                <Card>
-                    <CardHeader>
-                        
-                    </CardHeader>
-                    
-                </Card>
-            </Col>
+                            <InputGroup>
+                                <Input
+                                    type="datetime-local">
+                                </Input>
+                            </InputGroup>
+                        </CardBody>
+                            <Button className="btn-3 mt-2 btn btn-primary">Click me</Button>
+                    </Card>
+                    <Card>
+                        <CardHeader>
+
+                        </CardHeader>
+
+                    </Card>
+                </Col>
             </Container>
         </>
     );
