@@ -38,8 +38,8 @@ const Test = () => {
                                     type="datetime-local">
                                 </Input>
                             </InputGroup>
+                            <Button>Click Me</Button>
                         </CardBody>
-                        <Button className="btn-3 mt-2 btn-info">Click me</Button>
                     </Card>
                     <Card>
                         <CardHeader>
