@@ -8,10 +8,10 @@ import {
     CardBody,
     // FormGroup,
     // Form,
-    // Input,
+    Input,
     // InputGroupAddon,
     // InputGroupText,
-    // InputGroup,
+    InputGroup,
     // Row,
     Col,
 } from "reactstrap";
@@ -67,6 +67,23 @@ const Test = () => {
                         <div className="text-center text-muted mb-4">
                             <small>Here is some test data</small>
                         </div>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardHeader>
+                        <div className="text-c">
+                            Hello World
+                        </div>
+                    </CardHeader>
+                    <CardBody>
+                        <h5>
+                            Here is a subheading
+                        </h5>
+                        <InputGroup>
+                            <Input
+                            type="datetime-local">
+                            </Input>
+                        </InputGroup>
                     </CardBody>
                 </Card>
             </Col>
