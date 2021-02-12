@@ -29,6 +29,8 @@ import AuthLayout from "layouts/Auth.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+      {/* NOTE I think this is where items are being passed in based on their baseURL pathing. Note in the window url that the appendices change whether they are auth or admin root urls */}
+      {/* NOTE the keyword here is path="/admin", matches the path dictated in routes.js and layout: "/admin" */}
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
       <Route path="/auth" render={(props) => <AuthLayout {...props} />} />
       <Redirect from="/" to="/admin/index" />

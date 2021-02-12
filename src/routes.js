@@ -79,7 +79,7 @@ var routes = [
     name: "Test",
     icon: "ni ni-controller text-blue",
     component: Test,
-    layout: "/auth",
+    layout: "/admin",
   },
 ];
 export default routes;
